@@ -1,0 +1,28 @@
+body
+{
+
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+form
+{
+  background: url("5.jpg");
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans' , monospace;
+  font-size: 50px;
+  padding-top: 300px;
+  /*padding-bottom: 10px;*/
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  background-color: white ;
+  color: white;
+
+
+}

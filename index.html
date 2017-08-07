@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Web Crawler</title>
+        <link rel="stylesheet" href="spiderCrawl.css">
+    </head>
+    <body>
+        <form action="crawler.php" method="POST" >
+            <fieldset>
+                <legend>GROUP-18 Crawler</legend>
+                <label for="url">URL</label>
+                <input name="url" type="text" required />
+                <label for="depth">Depth</label>
+                <input name="depth" type="text" required />
+                <input name="crawl" type="submit" value="Crawl">
+                <a href="dbplot.php">View results on map</a>
+                <!-- <textarea name="results" rows="46" cols="100" ></textarea> -->
+            </fieldset>
+       </form>
+    </body>
+</html>
